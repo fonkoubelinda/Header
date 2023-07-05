@@ -10,48 +10,60 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin:10px;
 }
 nav ul li{
     list-style:none;
     margin: 0 6px;
 }
 nav ul li a{
-    color: blue;
-    text-shadow: 1px 2px gold;
+    color:blue;
+    text-shadow: 1px 1px goldenrod;
+    
 }
 img{
     border-radius:20%;
     border:solid goldenrod;
-    height: 160px;
-    width: auto;
+    margin:30px;
 }
 h1{
     text-decoration: underline;
     text-shadow:1px 1px goldenrod;
     text-transform: capitalize;
-   
+    margin:20px;
 }
-section{
-    border-radius: 1px;
-    border: 3px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-section h1 p{
-    display: flex;
-    align-items: center;
-    justify-content:center;
+hero-section{
     
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    /* flex-wrap: wrap; */
+    border:solid black;
+    border-radius: 10px; 
 }
 button{
     outline: auto;
     border: 10px solid black;
+    border-radius: 10px;
+    text-shadow: 1px 1px goldenrod;
+    margin: 20px;
 }  
 body{
     background-color:gray;
 }
+p{
+    margin: 20px;
+}
+
     
+    
+     
+    
+
+
+   
+    
+
     
     
 
